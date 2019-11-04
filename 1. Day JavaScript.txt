@@ -1,0 +1,39 @@
+1.Standar JavaScript
+	https://github.com/tc39/ecma262
+	https://www.ecma-international.org/ecma-262/
+	http://www.ecma-international.org/ecma-262/6.0/
+2.Estado de la plataforma web
+
+	Chrome
+		https://www.chromestatus.com/features
+	Edge
+		https://developer.microsoft.com/en-us/microsoft-edge/platform/status/
+	FireFox
+		https://platform-status.mozilla.org/
+	Safari
+		https://webkit.org/status/
+3. JavaScript
+	Api Object
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object
+	Function Object
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function
+	Herencia y cadena de prototipos
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Herencia_y_la_cadena_de_protipos
+		Clases ES6
+			https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes
+	this,call,bind,apply
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/this
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function/call
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function/apply
+		https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Function/bind
+
+4. Transpiler
+	Babel
+		https://babeljs.io/
+	TypeScript
+		https://www.typescriptlang.org/play/
+		https://www.typescriptlang.org/
+Recomendaciones
+	https://www.youtube.com/watch?v=nRlurAqViTA
+	https://desarrolloweb.com/manuales/manual-de-ecmascript-6.html
+	

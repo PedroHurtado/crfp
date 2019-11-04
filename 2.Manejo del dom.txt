@@ -1,0 +1,82 @@
+Manejo del dom
+
+1. Herencia de objetos
+	https://javascript.info/article/basic-dom-node-properties/dom-class-hierarchy.svg
+        Html void Element
+		https://developer.mozilla.org/en-US/docs/Glossary/Empty_element
+	HTMLUnknownElement
+		https://developer.mozilla.org/en-US/docs/Web/API/HTMLUnknownElement
+2. Espacios de nombres
+	html:http://www.w3.org/1999/xhtml
+	svg:http://www.w3.org/2000/svg
+	matchml:https://es.wikipedia.org/wiki/MathML(no soportado)	
+3. Api dom
+	Create
+		document.createElement('div')
+		document.creteElementNS(namespace,tag)
+		   https://developer.mozilla.org/es/docs/Web/API/Document/createElementNS
+		document.createTextNode('Hello')
+                document.createComment('comment')
+                document.createDocumentFragment()
+    
+        	
+		todas estas funciones son factorias que
+		devuelven un objeto del dom.
+	Update.
+		attributes vs properties
+			https://javascript.info/dom-attributes-and-properties
+			element.setAttribute
+			element.removeAttribute
+		class
+			element.classList
+			element.className
+		style
+			element.style.setProperty
+		Modificacion de textNode y comment
+			node.data
+	Remove
+		node.remove() // evitar por compatiblidad
+		https://caniuse.com/#feat=childnode-remove
+		Utilizar siempre
+		node.parentNode.removeChild(node)
+	Lectura
+		node.getElementById
+		node.getElementsByTagName
+		node.getElementsByClassName
+
+		Lo normal es utilizar
+		
+		node.querySelector
+		node.querySelectorAll 
+
+		con los selectores css correspondientes
+
+		https://www.w3schools.com/cssref/css_selectors.asp
+		https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
+
+		Movientos en el arbol.
+		Hacia los padres a traves de 
+			ParentNode
+			ParentElement
+		Hacia los hijos
+			children (devuelve elementos)
+			childNodes (devuelve nodos y elementos)
+		Hacia la derecha del primero al último
+			nextSibiling
+			nextElementSibling
+		De derecha a izquierda
+			previousSibling
+			previousElementSibling
+
+		Recorrer nodos de forma lineal y con gran
+		performance
+		
+		createTreeWalker
+
+4.Recomendaciones
+	El alumno debería manejar los siguientes puntos
+		1. Recursividad
+		2. Composite pattern
+		3. Arboles n-arios
+	
+		
